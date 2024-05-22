@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cristian Consina - Coach de Debate y Profesor de Inglés</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f5f5f5;
             color: #333;
         }
         .container {
@@ -18,52 +19,52 @@
             overflow: hidden;
         }
         header {
-            background: #333;
-            color: #fff;
+            background: #2c3e50;
+            color: #ecf0f1;
             padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
+            padding-bottom: 10px;
+            border-bottom: #e74c3c 4px solid;
         }
         header h1 {
             text-align: center;
             margin: 0;
-            font-size: 24px;
+            font-size: 36px;
         }
         nav {
             margin-top: 10px;
             text-align: center;
         }
         nav a {
-            color: #fff;
+            color: #ecf0f1;
             text-decoration: none;
             margin: 0 15px;
             font-size: 18px;
+            transition: color 0.3s;
         }
-        .bio {
-            background: #fff;
+        nav a:hover {
+            color: #e74c3c;
+        }
+        .bio, .capacitaciones {
+            background: #ffffff;
             padding: 30px;
             margin-top: 30px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
-        .bio h2 {
+        .bio h2, .capacitaciones h2 {
             margin-top: 0;
-        }
-        .capacitaciones {
-            background: #fff;
-            padding: 30px;
-            margin-top: 30px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .capacitaciones h2 {
-            margin-top: 0;
+            color: #2c3e50;
         }
         footer {
-            background: #333;
-            color: #fff;
+            background: #2c3e50;
+            color: #ecf0f1;
             text-align: center;
             padding: 20px;
             margin-top: 30px;
-            border-top: #0779e4 3px solid;
+            border-top: #e74c3c 4px solid;
+        }
+        footer p {
+            margin: 0;
         }
     </style>
 </head>
@@ -98,4 +99,3 @@
     </footer>
 </body>
 </html>
-# Cristian
